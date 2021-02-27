@@ -1,0 +1,19 @@
+{
+  "name": "auto-act",
+  "version": "1.0.0",
+  "description": "automation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./Main/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vidul",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  }
+}
