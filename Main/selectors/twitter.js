@@ -1,7 +1,3 @@
-export const cred = {
-    username : 'vidulkumar',
-    password : 'newtotwitter'
-}
 export const login = {
     loginButton : "a[data-testid='loginButton']",
     nameUserInp : "input[name='session[username_or_email]']",
@@ -12,5 +8,8 @@ export const login = {
 export const mainPage = {
     // tweet box
     testIdTweetInp: "div[data-testid='tweetTextarea_0']",
-    testIdTweetSubmitBtn:"div[data-testid='tweetButtonInline']"
+    testIdTweetSubmitBtn:"div[data-testid='tweetButtonInline']",
+    exploreLink: "a[data-testid='AppTabBar_Explore_Link']",
+    tagLink: "div[data-testid='trend'] >div>div >span[class='r-18u37iz'] >span",
+    tagLink2: "div[data-testid='trend'] >div>div >span"
 }
